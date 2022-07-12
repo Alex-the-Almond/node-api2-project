@@ -47,7 +47,7 @@ Your assignment page on Canvas should contain instructions for submitting this p
 - If the request body is missing the `title` or `contents` property:
 
   - respond with HTTP status code `400` (Bad Request).
-  - return the following JSON: `{ message: "Please provide title and contents for the post" }`.
+  - return the following JSON: `{ message: "There was an error while saving the post to the database" }`.
 
 - If the information about the _post_ is valid:
 
